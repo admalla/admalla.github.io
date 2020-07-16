@@ -1,0 +1,91 @@
+.navbar{
+box-shadow: 0px 0px 20px 0px #6C6464;
+}
+.centernav{
+	margin: auto;
+}
+
+.ser{
+	color: #827676
+}
+.ser:hover{
+	color: #DB1010
+}
+.nov {
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-top: 200px;
+	background-color: blue;
+    background-image: url(http://alvi95.beget.tech/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tex2{
+	font-size: 55px;
+}
+
+	.text {
+		margin-bottom: 200px;
+		text-align: center;
+		color: white;
+	}
+	.tex{
+		color: #B0A5A5;
+		font-size: 21px;
+	}
+	.knop1 {
+		
+		border-radius: 30px;
+		padding: 17px 30px;
+		color: white;
+		background-color: #DE4B4B;
+		border: none;
+		box-shadow: 0 0 5px #DE4B4B
+	}
+	.knop1:hover{
+		background-color: red;
+	}
+	.header {
+		background-color: #E05E5E;
+		padding-left: 300px;
+	    padding-right: 300px;
+	    padding-top: 90px;
+	}
+	.text1 {
+		margin-bottom: 100px;
+		text-align: center;
+		color: white;
+	}
+	.knop2 {
+	    border-radius: 30px;
+		padding: 17px 30px;
+		color: black;
+		background-color: white;
+		border: none;	
+	}
+	.knop2:hover{
+		background-color: #ECC4EA
+	}
+.center {
+	text-align: center;
+}
+.otstup {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.text3 {
+	font-size: 20px;
+}
+.h3{
+	font-size: 1.5rem;
+}
+.pad {
+	padding: 0px;
+	margin-top: 90px;
+}
+.text4 {
+	    margin-bottom: 50px;
+		text-align: center;
+		color: #657075;
+		margin-top: 50px;
+}

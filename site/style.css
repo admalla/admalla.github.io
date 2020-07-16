@@ -1,0 +1,154 @@
+.header {
+	background-color: #3d354e;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+.text {
+	text-align: center;
+	font-size: 70px;
+	color: white;
+}
+.subtext {
+	text-align: center;
+	color: white;
+}
+.section1 {
+	background-color: #f7f6f8;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.mac {
+	width: 1140px;
+	margin: auto;
+	display: flex;
+}
+.blok1 {
+	width: 50%;
+	font-size: 1.25em;
+	box-sizing: border-box;
+	color: #46484a;
+}
+.blok2 {
+	width: 50%;
+}
+.pic {
+	width: 100%;
+}
+.section2 {
+	padding-bottom: 120px;
+	padding-top: 120px;
+}
+.iphone {
+	width: 1140px;
+	margin: auto;
+	display: flex;
+}
+.img {
+	width: 50%;
+	text-align: center;
+}
+.desc {
+	width: 50%;
+	font-size: 1.25em;
+	color: #46484a;
+	text-align: left;
+	box-sizing: border-box;
+	padding-top: 30px;
+	padding-left: 80px;
+}
+.section3 {
+	
+	background-color: #f7f6f8;
+	height: 500px;
+
+}
+.papa {
+	display: flex;
+	width: 1140px;
+	margin: auto;
+	padding-bottom: 120px;
+	padding-top: 120px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.w1 {
+	padding: 20px;
+	width: 33%;
+	color: #46484a;
+	font-size: 1.5em;
+	text-align: center;
+}
+.w2 {
+	padding: 20px;
+	width: 33%;
+	color: #46484a;
+	font-size: 1.5em;
+	text-align: center;
+}
+.w3 {
+	padding: 20px;
+	width: 33%;
+	color: #46484a;
+	font-size: 1.5em;
+	text-align: center;
+}
+.section4 {
+	padding-top: 10px;
+	padding-bottom: 120px;
+}
+.video {
+	width: 900px;
+	margin: auto;
+	padding-bottom: 120px;
+	padding-top: 120px;
+	text-align: center;
+}
+.text1 {
+	color: #46484a;
+}
+.section5 {
+	background-color: #f7f6f8;
+	padding-top: 10px;
+	padding-bottom: 120px;
+	text-align: center;
+	color: #46484a;
+}
+.peyment {
+	width: 1140px;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.peyment h1 {
+	margin-bottom: 0px;
+}
+.price {
+	font-size: 20px;
+}
+.pr1 {
+	width: 360px;
+	padding: 20px;
+	color: #46484a;
+}
+.pr2 {
+	width: 360px;
+	padding: 20px;
+	background-color: #3d354e;
+	color: white;
+}
+.pr3 {
+	width: 360px;
+	padding: 20px;
+	color: #46484a;
+}
+.footer {
+	background-color: #3d354f;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	box-sizing: border-box;
+}

@@ -1,0 +1,211 @@
+body{
+	font-family: "Oswald";
+}
+.header{
+	width: 100%;
+	height: 550px;
+	padding: 0 220px;
+	background-size: cover;
+	text-align: center;
+	background-color: grey;
+	background-image: url(img/first-screen.jpg);
+}
+.pad{
+	padding-top: 20px;
+}
+.clas1{
+	justify-content: space-between;
+}
+.pic{
+	width: 38px;
+	height: 38px;
+	box-sizing: border-box;
+}
+.clas2{
+	color: white;
+	margin: 100px 0 0 0;
+	text-align: center;
+}
+.clas2 h1{
+	font-family: "Oswald";
+	font-size: 48px;
+}
+.clas2 p{
+	font-family: "Oswald";
+}
+.clas3{
+	padding: auto;
+}
+.wrapper{
+	width: 1110px;
+	margin-top: -110px;
+	background-color: #EBE7E7;
+	padding: 50px;
+}
+7
+.text-center{
+	font-family: "Oswald";
+	font-size: 30px;
+	line-height: 0.5;
+	color: #020202
+}
+.text-center span{
+	font-size: 15px;
+	color: #938A8A
+}
+.text-center h1{
+	color: #E04B4B;
+	font-size: 50px;
+	margin-bottom: 12px;
+}
+.shrift{
+	color: #484242;
+	font-family: "Oswald";
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+.bor{
+	width: 100%;
+}
+.bord{
+	width: 40px;
+	margin-top: 15px;
+	border-top: 5px Solid red;
+}
+.text{
+	width: 250px;
+	height: 220px;
+	margin-top: 15px;
+	font-family: "Oswald";
+}
+.raz{
+	font-size: 12px;
+	color: #998A8A
+}
+.section-1{
+	width: 100%;
+	background-color: #D75C5C;
+	padding: 40px 0;
+}
+
+.text1{
+	font-family: "Oswald";
+	color: white;
+}
+.maill{
+	width: 150px;
+	background-color: #F4E8E8;
+	text-align: center;
+	padding: 10px;
+}
+.maill i {
+	margin-right: 10px;
+}
+.cvet{
+	color: #060606;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+
+.dom2{
+	background-color: #F3E3E3;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+.dura{
+	margin-top: 50px;
+}
+.tvar{
+	font-size: 25px;
+	color: #E91C1C;
+	margin-left: 5px;
+}
+.lora{
+	color: #B3A7A7;
+	font-size: 12px;
+	line-height: 0.9;
+}
+.mymra{
+	padding-left: 200px;
+}
+.dlina{
+	background-color: #3A3232;
+	width: 100%;
+	margin-top: 50px;
+	padding: 70px 0;
+}
+.cvet2{
+	color: white;
+	text-align: center;
+	width: 1140px;
+	margin-top: 50px;
+}
+.cent1{
+	justify-content: space-between;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.cvet3{
+	width: 1140px;
+	text-align: center;
+	font-family: "Oswald";
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.stolb{
+
+	background-color: #F9E8E8;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+.just{
+	margin-bottom: 50px;
+}
+.ikon{
+	font-size: 30px;
+	color: red;
+}
+.lop{
+	color: #BAAFAF;
+	font-size: 12px;
+}
+.arena{
+	color: red;
+}
+.kontakt{
+	font-family: "Oswald";
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+}
+.verh{
+	margin-top: 50px;
+}
+.text-cent{
+	text-align: center;
+}
+.ikon2{
+	color: red;
+	font-size: 40px;
+}
+.adres{
+	color: #BBADAD;
+	font-size: 20px;
+}
+.ofis{
+	color: #050505;
+}
+.footer{
+	width: 100%;
+	background-color: #4D4848;
+	padding: 25px 0;
+	margin-top: 50px;
+}
+.text3{
+	color: white;
+}
