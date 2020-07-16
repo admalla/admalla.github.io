@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let man = {
+            name: "adam",
+            surname: "sukhanov",
+            age: 36,
+            login: "admalla",
+            password: 1983,
+            balance: "50rub"
+        };
+        
+        let p = "pas";
+        if (p == man.password){
+            console.log(`Добро пожаловать, ${man.surname} ${man.name}. Ваш логин: ${man.login}`);
+        }else{
+            console.log(`Указанный пароль ${p} не верен. Попробуйте еще раз`);
+        }
+        
+    </script>
+</body>
+</html>

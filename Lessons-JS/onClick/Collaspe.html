@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animate.css">
+    <style>
+        .click a{
+            cursor: pointer;
+            font-size: xx-large;
+        }
+        .text{
+            display: none;
+            width: 400px;
+            background-color: lightgray;
+            border: 1px solid black;
+            border-radius: 10px;
+            color: brown;
+            padding: 20px;
+        }
+        .show{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="click" id="click"><a href="#">Click her</a></div>
+    <div class="text" id="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nam quibusdam ea odio, sapiente temporibus? Quisquam veniam maxime explicabo blanditiis id tempora modi ad ducimus dolores reprehenderit, officia, sint, optio dolore. Officia minima corporis qui mollitia repellat. Ea blanditiis a modi autem non, minima enim at, similique error alias ratione aliquam libero facere provident optio incidunt praesentium saepe? Blanditiis ipsa error maiores odio, in nulla modi quaerat. Alias veniam saepe omnis molestias deleniti optio incidunt amet, magni ullam aliquid aspernatur?</div>
+    <script>
+        let click = document.getElementById('click');
+        let text = document.getElementById('text');
+
+        click.onclick = f;
+        function f(){
+            text.classList.add('animated');
+            text.classList.add('zoomIn');
+            text.classList.toggle('show');
+            
+        }
+
+    </script>
+</body>
+</html>

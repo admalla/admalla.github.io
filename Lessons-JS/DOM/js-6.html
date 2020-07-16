@@ -1,0 +1,51 @@
+
+<html>
+    <head>
+      <title>intocode</title>
+    </head>
+    <body>
+      <div>
+        <div>
+          первый блок
+          <b>
+            жирный текст внутри первого блока
+          </b>
+        </div>
+        <div>
+          второй блок
+          <i>
+            курсивный текст внутри второго блока
+          </i>
+        </div>
+        <div>
+          <div>
+            последний див
+          </div>
+        </div>
+      </div>
+
+      <script>
+
+        let body = document.body;
+        let mainElement = body.firstElementChild;
+        let firstElement = mainElement.firstElementChild;
+        let b = firstElement.firstElementChild;
+        console.log(b);
+
+        let nextElement = firstElement.nextElementSibling;
+        let i = nextElement.firstElementChild;
+        console.log(i);
+
+        document.body.style.backgroundColor = "black";
+        document.body.style.color = "white";
+
+        /* i.remove(); */
+
+        let u = document.createElement(`u`);
+        u.innerHTML = `<u>подчеркнутый текст</u>`;
+        nextElement.append(u);
+
+
+      </script>
+    </body>
+    </html>

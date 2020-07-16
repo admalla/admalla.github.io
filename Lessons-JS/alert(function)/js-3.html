@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1)
+        function hello(){
+            alert("Привет мир");
+        }
+        hello();
+
+        //2)
+        function namb(n){
+            alert(n / 2);
+        }
+        namb(4);
+
+        //3)
+        function Java(){
+            return "JavaScript";
+        }
+        let u = Java();
+        console.log(u);
+
+        //4)
+        function calcSum(q, w){
+            return q + w;
+        }
+        let Sum = calcSum(3, 4);
+        console.log(Sum);
+
+        //5)
+       function numbers(r, t){
+           return Math.max(r, t);
+        }
+        numbers(1, 2);
+        
+        //6)
+        function f(name, namb){
+            if(namb > 4){
+            return false;}
+            else {
+                if(namb == 1){
+                    name = "a";
+                    return name;
+                }
+                if(namb == 2){
+                    name = "ad";
+                    return name;
+                }
+                if(namb == 3){
+                    name = "ada";
+                    return name;
+                }
+                if(namb == 4){
+                    return name;
+                }
+                }
+        }
+        console.log(f("adam", 2));
+        
+    </script>
+</body>
+</html>

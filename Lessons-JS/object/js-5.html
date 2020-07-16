@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let house = {
+            width: 100,
+            length: 80,
+            rooms: 6,
+            address: "Grozny, st. Michurina, 50",
+            type: "частный",
+        }
+
+        house.mates = 6;
+        house.getArea = function(){
+            return this.width*this.length;
+        }
+        console.log(house.getArea());
+
+        if("type" in house){
+            house.type = "big house";
+        }
+        console.log(house.type)
+
+
+    </script>
+</body>
+</html>
