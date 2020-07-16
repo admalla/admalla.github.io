@@ -1,0 +1,11 @@
+.block {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+.title{
+  border-bottom: 1px solid black;
+}
